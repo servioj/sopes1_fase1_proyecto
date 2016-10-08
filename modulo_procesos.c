@@ -60,9 +60,9 @@ static int meminfo_proc_show(struct seq_file *m, void *v)
 		"Carne:200815396\n"
 		"Nombre:Servio Jose Boguerin Guerra\n"
 		"Sistema Operativo:Elementary OS\n"
-		"Nombre del proceso:       %8lu kB\n"
-		"PID:        %8lu kB\n"		
-		"Estado:        %8lu kB\n"
+		"Nombre del proceso:       %8lu \n"
+		"PID:        %8lu \n"		
+		"Estado:        %8lu \n"
 		
 ,
 		K(i.totalram),
